@@ -1,0 +1,20 @@
+Use case: precise-object-edit
+Asset type: label-free technical illustration for a research graphical abstract.
+Input image 1 is the edit target, not a loose style reference.
+
+Increase the actual resolution and clarity of this exact illustration to about
+3548 x 1774 pixels (2:1 landscape). This is a faithful restoration/upscale,
+not a redesign. Use clean sharp black structural contours on pure white.
+Preserve the complete original canvas, all whitespace, every object's normalized
+position and scale, and the exact three-column composition. Do not crop or pad.
+
+Keep the same keys and two blank physical tags in the left scene, the same
+spectacles and tag in the right scene, both front-view tables, the same older
+woman, doorway, bag and handheld phone in the centre, and the three identical
+front-view blank-screen phones below. Preserve anatomy and recognizable object
+details. Keep the phone frames, screens and blank tag faces registered to the
+same normalized coordinates: exact vector labels and symbols will be overlaid.
+
+Change only contour clarity and resolution. No text, numbers, arrows, symbols,
+new objects, colours, grey fills, shading, texture, hatching or shadows.
+Do not thicken fine lines into heavy cartoon outlines or invent extra details.

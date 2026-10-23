@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "source": {
+    "doi": "10.1145/2676702.2676719",
+    "relevant_pages": [
+      139,
+      140
+    ],
+    "publisher_pdf_sha256": "18e82fbd8ef965cb07b87e8747a1b30a9f2e897e9719ac15675b248be78b18e7",
+    "scenario": "Belongings when leaving home",
+    "references_in_repository": false
+  },
+  "scope": "Conceptual Tag/Recall/optional Find interaction, not clinical efficacy or live tracking",
+  "generation": {
+    "tool": "Built-in image_gen.imagegen",
+    "model": null,
+    "seed": null,
+    "historical_settings": "Not recovered; generation and refinement prompt text preserved.",
+    "reference_roles": {
+      "ReRide approved plate": "Style only; exact historical attachment unavailable",
+      "SnapTag paper figures": "Scientific meaning; publisher figure attachments not redistributed"
+    },
+    "historical_draft": "iterations/00-historical-draft.png",
+    "historical_draft_prompt_association": "Inferred from visual content and chronology, not invocation log",
+    "accepted_generated_output": "artwork-generated.png",
+    "composition_input": "artwork-original.png",
+    "composition_input_relationship": "Same dimensions and grayscale pixels as recovered accepted tool output; historical conversion settings unavailable",
+    "attempts": [
+      {
+        "date": "2026-10-24",
+        "prompt": "prompts/upscale.txt",
+        "input": "artwork-original.png",
+        "output": "iterations/01-upscale-attempt.png",
+        "requested_pixels": [
+          3548,
+          1774
+        ],
+        "actual_pixels": [
+          1774,
+          887
+        ],
+        "transparent_background": false,
+        "selected": false,
+        "reason": "Returned original dimensions; not a successful resolution increase"
+      },
+      {
+        "date": "2026-10-24",
+        "prompt": "prompts/upscale-retry.txt",
+        "input": "artwork-original.png",
+        "output": "iterations/02-upscale-retry.png",
+        "requested_pixels": [
+          3840,
+          1920
+        ],
+        "actual_pixels": [
+          1774,
+          887
+        ],
+        "transparent_background": false,
+        "selected": false,
+        "reason": "Returned original dimensions; owner chose to retain original and not try CLI/API"
+      }
+    ],
+    "reproducibility": "Accepted raster and exact composition are preserved. Prompts do not guarantee identical regeneration; no claim that every historical trial was recovered."
+  },
+  "rendering": {
+    "source": "figures/snaptag/snaptag.tex",
+    "renderer": "research-ops/.agents/skills/tikz-graphical-abstracts/scripts/render.py",
+    "font_pt": 9,
+    "font_family": "NimbusSanL-Regu",
+    "colour_model": "grayscale",
+    "png_pixels": [
+      4400,
+      2550
+    ],
+    "review_long_edge_px": 900,
+    "artwork_pixels": [
+      1774,
+      887
+    ],
+    "pdf": "Raster artwork with native vector annotations",
+    "raster_compression": "Lossless Flate; Ghostscript grayscale conversion still applies"
+  },
+  "verification": {
+    "manual_review": "Full-size and 900-pixel composite inspected for layout, labels, tag cues and arrow endpoints; retained draft and both attempts inspected",
+    "renderer_checks": "Native black font, 9 pt, one family and page bounds passed",
+    "pdfimages": "Embedded image remains 1774 x 887; no JPEG encoding",
+    "tests": "Renderer integration test passed: default/custom dimensions, review/build locations, lossless embedding, invalid width/font preserves prior outputs"
+  },
+  "sha256": {
+    "figures/snaptag/README.md": "b8e753b459c361ca1d1f85956e59e7dc7172f39f7dc0a29dac1e51e9fef6d27d",
+    "figures/snaptag/artwork-generated.png": "6c54c8f63bf839690eb80854dbe41e6220845888ee6c4ce0070eacca72e19f16",
+    "figures/snaptag/artwork-original.png": "6c54c8f63bf839690eb80854dbe41e6220845888ee6c4ce0070eacca72e19f16",
+    "figures/snaptag/iterations/00-historical-draft.png": "3a12ffded2e3b558e18a78481906e1d195376af00803ff7d5d2fdb13dbc28777",
+    "figures/snaptag/iterations/01-upscale-attempt.png": "407bdfa0c6b05c2e3387afcdb341a2fb452b2ad4e89934d3c708ca3f220e276a",
+    "figures/snaptag/iterations/02-upscale-retry.png": "8b211281c18ee26ee24181ee2d7d5380ec608ea0b896a157c286e15356389017",
+    "figures/snaptag/prompts/generate.txt": "747ad9b9aee9369fa469e17768ef3636c16cd5a8fbd1e379742257fe12d4c003",
+    "figures/snaptag/prompts/refine.txt": "578bea4b68bcfc2333c9da573c4a37190831d237a3f44579412819a071e08197",
+    "figures/snaptag/prompts/upscale-retry.txt": "39b48fd98df5fcd07ed9aef8d056063ce30394e4f9edf67434b850fddf398462",
+    "figures/snaptag/prompts/upscale.txt": "ca4e31486959d9a58b93f260493c56842147a3efdeeae07d3741df86f0b5105b",
+    "figures/snaptag/snaptag.tex": "196f9d3a879842c74d7cebf0440b93095038f4dff68cd49ba66439b0a7b54b3e",
+    "assets/snaptag.png": "e544e07ae8f0aee0c16132c6e5708fbc6c2d73b6ab7bb47c0be83024b0d87c7a",
+    "assets/snaptag.pdf": "28ef42f0bac7d4fc9b0f83243a0f8cefce4626e086b4354e5b04f979ba6f6cc8"
+  }
+}

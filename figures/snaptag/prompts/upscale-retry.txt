@@ -1,0 +1,15 @@
+Use case: precise-object-edit
+Input image 1 is the exact illustration to restore at higher resolution.
+Render a NEW high-resolution 3840 x 1920 pixel image, with real finely resolved
+contour detail. The previous attempt returned only 1774 x 887, so the required
+change is a substantially larger raster, not merely reproducing the input file.
+
+Faithfully redraw the same black-on-white patent-style illustration at the higher
+pixel dimensions. Preserve the full 2:1 canvas and every normalized coordinate.
+Keep all three columns, the two flat front-view tables, keys and spectacles,
+three blank tag faces, the older woman with her bag and phone at the doorway,
+and three identical blank-screen phone callouts exactly registered to the input.
+Keep all spacing and white margins unchanged so native labels can be overlaid.
+The result must remain the same scene, with no added objects or altered meaning.
+Use smooth crisp thin technical contours on pure white. No text, symbols, arrows,
+colour, grey fills, shading, shadow, hatching, texture, cropping or extra padding.
