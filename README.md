@@ -14,8 +14,6 @@ Machinery (ACM), pages 136–141.
 The belongings scenario illustrates the proposed interaction. Shape cues represent
 the paper's tag cues in monochrome; the screens are schematic.
 
-[Figure sources, generation history and build instructions](figures/snaptag/README.md).
-
 ## Abstract
 
 Research shows that inherent psychological barriers linked to memory loss shape ageing people’s self-efficacy to perform tasks of everyday living. In this paper we present SnapTag, a design concept for a mobile application that leverages situated memory to enhance self-efficacy in senior citizens for their wellbeing. SnapTag aims to trigger a recollection of situated memory in senior citizens through micro-interactions. We speculate that such triggering encourages senior citizens to approach their daily activities with a sense of efficacy and confidence. We expect that our exploration to point the interaction design and HCI communities to further research and develop to explore the situated aspects of memory recall while designing for senior wellbeing.
