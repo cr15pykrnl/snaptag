@@ -56,6 +56,16 @@
       "pattern": ".local/*",
       "access": "private",
       "reason": "Temporary builds, logs and superseded local working copies."
+    },
+    {
+      "pattern": "AGENTS.md",
+      "access": "public",
+      "reason": "Portable project instructions and owner setup; no private source paths or credentials."
+    },
+    {
+      "pattern": "contributing.md",
+      "access": "public",
+      "reason": "Portable project instructions and owner setup; no private source paths or credentials."
     }
   ],
   "reviews": [
