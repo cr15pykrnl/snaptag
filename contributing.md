@@ -16,3 +16,6 @@ python3 -I research-ops/scripts/setup-project.py --repo snaptag --check
 Project setup configures the research Git identity and a relative path to shared
 commit hooks. Shared rules stay in research-ops; each project keeps its own
 scientific scope and limitations.
+
+Selected figures use SVG with anti-aliased PNG fallbacks. Rebuilding SVG requires
+Poppler's `pdftocairo`; PDF intermediates remain local and ignored.

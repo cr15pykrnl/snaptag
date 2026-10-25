@@ -20,15 +20,19 @@
   ],
   "native_font": "9 pt Helvetica-compatible / NimbusSanL-Regu",
   "rendering": {
-    "mode": "--bilevel",
-    "uniform_luminance_threshold": 0.85,
-    "final_png_values": [
-      0,
-      255
-    ],
-    "geometry": "Native TikZ; gnuplot panels composed at native size; source artwork preserved"
+    "mode": "Anti-aliased grayscale PNG and SVG (--svg; no --bilevel)",
+    "authored_palette": "Black strokes and labels on white; gray raster edge pixels provide coverage only.",
+    "png_bit_depth": 8,
+    "png_color_type": 0,
+    "text_alpha_bits": 4,
+    "graphics_alpha_bits": 4,
+    "svg_exporter": "Poppler pdftocairo",
+    "svg_embedded_raster_images": {
+      "assets/snaptag.svg": 1
+    },
+    "pdf_policy": "Ignored local compilation intermediate; excluded from release."
   },
-  "verification": "All selected abstracts and standalone plots rebuilt from the consolidated portable sources; all eight PNG SHA-256 digests match the reviewed outputs exactly. Native 9 pt Helvetica-compatible labels, bounds and one-bit exports verified. No new scientific experiment or model run.",
+  "verification": "Owner selected the reviewed SVG and anti-aliased previews. All figures rebuilt through updated portable scripts; native 9 pt labels and page bounds checked. No new scientific experiment or model run.",
   "image_generation": {
     "tool": "Built-in image_gen.imagegen",
     "model": null,
@@ -73,11 +77,11 @@
     "limits": "Earlier prompt association is historical; failed drafts and ineffective upscale exports are omitted from the selected figure package."
   },
   "schema_version": 1,
-  "status": "Selected graphical abstracts; prepared for owner-reviewed commits. No new experiment or simulation.",
+  "status": "Owner-selected SVGs with anti-aliased PNG fallbacks. No new experiment or simulation.",
   "authoring_files": [
     {
       "path": "README.md",
-      "sha256": "8b9f466b52882af0454415ea0fcd6a36cb47c6ffe2f6164346eeb842b8c9290c"
+      "sha256": "72e19dc6c01305d39dacfc4bc9ddec214dfa3c11aaee1ebd9c87a2534b059965"
     },
     {
       "path": "artwork-before-edit.png",
@@ -105,17 +109,22 @@
     },
     {
       "path": "assets/snaptag.png",
-      "sha256": "2ac4cc33cf2efed087115e739d613b258296893d3cb464c7118ceffb026bab18",
+      "sha256": "95669ae722fa79316e7a83d0fc093502797922ee03f240a277f017b46ddc703e",
       "pixels": [
         2400,
         1800
       ],
-      "png_bit_depth": 1,
+      "png_bit_depth": 8,
       "png_color_type": 0
     },
     {
+      "path": "assets/snaptag.svg",
+      "sha256": "644411f909e655faa2c3227f0cd1f0f3053e9f257e0d6d8125eea4a117f4a300",
+      "embedded_raster_images": 1
+    },
+    {
       "path": "build.sh",
-      "sha256": "e204bcb9916859545a44191d13587d4e15db454577a04754a332772d0317d635"
+      "sha256": "19df9c877d7146c955265262013d6220fdb2fbce8c5f3ef78cf5a1a89f7de0f4"
     },
     {
       "path": "prompts/initial-generation.txt",
@@ -129,5 +138,11 @@
       "path": "snaptag.tex",
       "sha256": "c5cc6e26ec7cacfc3bb515423add8e94e26ce536147071ad0d5b3bb8597f3ee7"
     }
-  ]
+  ],
+  "illustration_selection": {
+    "date": "2026-10-26",
+    "decision": "Keep the existing PNG illustrations embedded in SVG; preserve native vector labels, connectors and diagrams.",
+    "rejected_trials": "Automatic outlines, centreline strokes, VTracer and manual redraw proofs were not selected.",
+    "build": "Original PNG dependencies retained; selected exports unchanged."
+  }
 }

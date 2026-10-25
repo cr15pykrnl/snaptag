@@ -81,6 +81,11 @@
       "pattern": "figures/abstracts/snaptag.tex",
       "access": "public",
       "reason": "Selected owner-reviewed graphical abstract, original/previously reviewed conceptual artwork, published-value plot or portable authoring evidence. Publication and commits still require current owner authorization."
+    },
+    {
+      "pattern": "figures/abstracts/assets/snaptag.svg",
+      "access": "public",
+      "reason": "Owner-selected SVG export of reviewed original graphical abstract; embedded artwork retains its existing attribution and rights."
     }
   ],
   "reviews": [
@@ -88,19 +93,25 @@
       "path": "figures/abstracts/artwork-before-edit.png",
       "sha256": "6c54c8f63bf839690eb80854dbe41e6220845888ee6c4ce0070eacca72e19f16",
       "rights": "Owner-requested original diagrams, attributed published aggregate values, or generated conceptual line artwork. Required original illustration inputs and exact edit prompt retained. No publisher figure or manuscript PDF copied; no new reuse license assigned.",
-      "privacy": "Self-reviewed final and source artwork. Scientific labels and schematic subjects only; no participant photographs, credentials or machine paths. Final composite PNGs are one-bit black/white. Scenario characters and hardware are illustrative. Final exports rebuilt identically from consolidated sources."
+      "privacy": "Self-reviewed final and source artwork. Scientific labels and schematic subjects only; no participant photographs, credentials or machine paths. Final composite PNGs now use anti-aliased edges. Scenario characters and hardware are illustrative. Final exports rebuilt identically from consolidated sources."
     },
     {
       "path": "figures/abstracts/artwork-veena.png",
       "sha256": "d1363611b01f4104aa063bb5ce26fcb5c4b0922f36641946d53f365620e4f817",
       "rights": "Owner-requested original diagrams, attributed published aggregate values, or generated conceptual line artwork. Required original illustration inputs and exact edit prompt retained. No publisher figure or manuscript PDF copied; no new reuse license assigned.",
-      "privacy": "Self-reviewed final and source artwork. Scientific labels and schematic subjects only; no participant photographs, credentials or machine paths. Final composite PNGs are one-bit black/white. Scenario characters and hardware are illustrative. Final exports rebuilt identically from consolidated sources."
+      "privacy": "Self-reviewed final and source artwork. Scientific labels and schematic subjects only; no participant photographs, credentials or machine paths. Final composite PNGs now use anti-aliased edges. Scenario characters and hardware are illustrative. Final exports rebuilt identically from consolidated sources."
     },
     {
       "path": "figures/abstracts/assets/snaptag.png",
-      "sha256": "2ac4cc33cf2efed087115e739d613b258296893d3cb464c7118ceffb026bab18",
-      "rights": "Owner-requested original diagrams, attributed published aggregate values, or generated conceptual line artwork. Required original illustration inputs and exact edit prompt retained. No publisher figure or manuscript PDF copied; no new reuse license assigned.",
-      "privacy": "Self-reviewed final and source artwork. Scientific labels and schematic subjects only; no participant photographs, credentials or machine paths. Final composite PNGs are one-bit black/white. Scenario characters and hardware are illustrative. Final exports rebuilt identically from consolidated sources."
+      "sha256": "95669ae722fa79316e7a83d0fc093502797922ee03f240a277f017b46ddc703e",
+      "rights": "Owner-selected original conceptual artwork and attributed reported-value plots; no copied publisher figure or manuscript PDF; no new reuse licence assigned.",
+      "privacy": "Self-reviewed scientific labels and schematic subjects; no participant photographs, credentials or private machine paths. SVGs inspected for embedded content; labels and geometry preserved. PNG fallbacks use anti-aliased edges."
+    },
+    {
+      "path": "figures/abstracts/assets/snaptag.svg",
+      "sha256": "644411f909e655faa2c3227f0cd1f0f3053e9f257e0d6d8125eea4a117f4a300",
+      "rights": "Owner-selected original conceptual artwork and attributed reported-value plots; no copied publisher figure or manuscript PDF; no new reuse licence assigned.",
+      "privacy": "Self-reviewed scientific labels and schematic subjects; no participant photographs, credentials or private machine paths. SVGs inspected for embedded content; labels and geometry preserved. PNG fallbacks use anti-aliased edges."
     }
   ]
 }
