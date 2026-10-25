@@ -1,0 +1,91 @@
+% SnapTag, doi:10.1145/2676702.2676719, pp.139–140.
+% Source-grounded belongings scenario: Tag, Recall, optional Find.
+% Shape cues replace colour cues for this monochrome conceptual illustration.
+% No measured efficacy, real-time tracking or exact app-screen reconstruction.
+\documentclass[tikz,border=0pt]{standalone}
+\usepackage[T1]{fontenc}
+\usepackage{helvet}
+\renewcommand\familydefault{\sfdefault}
+\usepackage{graphicx}
+\usetikzlibrary{arrows.meta}
+\tikzset{every node/.style={font=\fontsize{9}{10.5}\selectfont,
+  text=black,align=center,inner sep=0pt},
+  flow/.style={draw=black,line width=.6pt,
+    -{Stealth[length=1.5mm,width=1.2mm]}},
+  glyph/.style={draw=black,line width=.6pt,fill=white}}
+% Stable associations in every scene and screen: circle=keys, triangle=glasses.
+\newcommand{\keycue}[3]{\draw[glyph] (#1,#2) circle (#3);}
+\newcommand{\glasscue}[3]{
+ \draw[glyph] (#1,#2-#3)--(#1+#3,#2+#3)--(#1-#3,#2+#3)--cycle;}
+\newcommand{\glasses}[2]{
+ \begin{scope}[shift={(#1,#2)}]
+  \draw[black,line width=.6pt] (-32,0) ellipse (22 and 17);
+  \draw[black,line width=.6pt] (32,0) ellipse (22 and 17);
+  \draw[black,line width=.6pt] (-10,-2) .. controls (-5,-10) and (5,-10) .. (10,-2);
+  \draw[black,line width=.6pt] (-54,-5)--(-63,-12) (54,-5)--(63,-12);
+ \end{scope}}
+\begin{document}
+\begin{tikzpicture}[x=1mm,y=1mm]
+\path[use as bounding box] (0,0) rectangle (240,180);
+\begin{scope}[shift={(12.5,175)},x=.1075mm,y=-.1075mm]
+
+\node[anchor=north west] at (0,90)
+ {\includegraphics[width=215mm]{../snaptag/artwork-original.png}};
+
+% Stage labels use the same 9 pt size as all interface text and captions.
+\node at (347,45) {Tag objects};
+\node at (1000,45) {Recall in context};
+\node at (1658,45) {Find if needed};
+\node at (347,1090) {NFC tags + doorway};
+\node at (1000,1090) {Prompt recollection};
+\node at (1658,1090) {Optional identification and camera aid};
+
+% Two physical cue identities, preserved in the later contextual prompt.
+\keycue{241}{524}{10}
+\glasscue{595}{524}{10}
+\glasscue{1812}{524}{10}
+
+% Registration: associate object cues with the doorway context.
+\node at (347,770) {Doorway};
+\keycue{285}{840}{14}
+\node[anchor=west] at (315,840) {Keys};
+\glasscue{285}{905}{14}
+\node[anchor=west] at (315,905) {Glasses};
+\node at (347,990) {Associate};
+
+% Recall: show contextual cues without immediately naming the objects.
+\node at (1000,770) {Before\\you go};
+\keycue{960}{870}{18}
+\glasscue{1040}{870}{18}
+\node at (1000,975) {Think back};
+
+% Optional fallback: tap to reveal identity; camera aid is a further option.
+\node at (1658,770) {Tap to\\reveal};
+\glasscue{1658}{842}{16}
+\glasses{1658}{905}
+\node at (1658,955) {Glasses};
+\draw[black,line width=.4pt] (1583,990) rectangle (1733,1030);
+\node at (1658,1010) {Camera};
+
+% These are logical interaction transitions, not sensor range or wire diagrams.
+\draw[flow] (450,875)--(895,875);
+\node[anchor=south] at (670,848) {Context cue};
+\draw[flow] (1104,875)--(1550,875);
+\node[anchor=south] at (1325,848) {If needed};
+
+\end{scope}
+\draw (8,49)--(232,49);
+\node[anchor=west] at (9,41) {Qualitative study: 5 adults, ages 58--70};
+\node[anchor=west] at (9,31) {Interviews, routine mapping and shadowing};
+\node[anchor=west] at (9,19) {Context cues encourage recall before revealing};
+\node[anchor=west] at (9,9) {Self-efficacy benefit proposed, not measured};
+\node at (182,42) {Reported experiences (out of 5)};
+\foreach \label/\count/\yy in {Misplaced items/5/31,Medication confusion/3/21,Technology apprehension/4/11}{
+ \node[anchor=east] at (187,\yy) {\label};
+ \foreach \i in {1,...,5}{
+  \ifnum\i>\count \draw ({193+7*(\i-1)},\yy) circle (1.4);
+  \else \fill ({193+7*(\i-1)},\yy) circle (1.4);\fi
+ }
+}
+\end{tikzpicture}
+\end{document}

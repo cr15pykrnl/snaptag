@@ -66,6 +66,31 @@
       "pattern": "contributing.md",
       "access": "public",
       "reason": "Portable project instructions and owner setup; no private source paths or credentials."
+    },
+    {
+      "pattern": "figures/review-v1/README.md",
+      "access": "public",
+      "reason": "Requested first 4:3 review candidate: paper-specific brief, source evidence, reported-value fixture, editable composition or inspected export. Existing selected figure retained."
+    },
+    {
+      "pattern": "figures/review-v1/assets/snaptag.png",
+      "access": "public",
+      "reason": "Requested first 4:3 review candidate: paper-specific brief, source evidence, reported-value fixture, editable composition or inspected export. Existing selected figure retained."
+    },
+    {
+      "pattern": "figures/review-v1/provenance.json",
+      "access": "public",
+      "reason": "Requested first 4:3 review candidate: paper-specific brief, source evidence, reported-value fixture, editable composition or inspected export. Existing selected figure retained."
+    },
+    {
+      "pattern": "figures/review-v1/reported-results.csv",
+      "access": "public",
+      "reason": "Requested first 4:3 review candidate: paper-specific brief, source evidence, reported-value fixture, editable composition or inspected export. Existing selected figure retained."
+    },
+    {
+      "pattern": "figures/review-v1/snaptag.tex",
+      "access": "public",
+      "reason": "Requested first 4:3 review candidate: paper-specific brief, source evidence, reported-value fixture, editable composition or inspected export. Existing selected figure retained."
     }
   ],
   "reviews": [
@@ -116,6 +141,12 @@
       "sha256": "28ef42f0bac7d4fc9b0f83243a0f8cefce4626e086b4354e5b04f979ba6f6cc8",
       "rights": "New conceptual illustration generated with the host image tool or newly authored TikZ annotations. Owner requested preserving the generation workflow and outputs in this repository. Publisher PDF and reference figure images are excluded; no separate licence for publisher content is asserted.",
       "privacy": "Actual artwork visually inspected: conceptual person and schematic objects/screens, no participant portrait or study records. Available metadata and bytes checked for identifying machine paths; original tool outputs retain generated-content credentials."
+    },
+    {
+      "path": "figures/review-v1/assets/snaptag.png",
+      "sha256": "a3c8ddb5d97e65a0632d3c24f321d33f1550ba54dca5e0ca26439f056776d4e7",
+      "rights": "New owner-requested review composition. Original native geometry and/or previously reviewed accepted artwork; underlying publications cited in companion source notes. No publisher figure copied or new figure reuse license assigned.",
+      "privacy": "Review render inspected: scientific diagram, schematic interface or reported aggregate values only. No credentials, identifying machine paths or participant photographs. Native 9 pt black labels, one font family, page bounds and exact 4:3 output dimensions verified."
     }
   ]
 }
