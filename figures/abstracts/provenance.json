@@ -81,7 +81,7 @@
   "authoring_files": [
     {
       "path": "README.md",
-      "sha256": "72e19dc6c01305d39dacfc4bc9ddec214dfa3c11aaee1ebd9c87a2534b059965"
+      "sha256": "fde7ba0b419621487880ae41d3c97381123d41fb8868e0a45a84d43b9803e094"
     },
     {
       "path": "artwork-before-edit.png",
@@ -144,5 +144,6 @@
     "decision": "Keep the existing PNG illustrations embedded in SVG; preserve native vector labels, connectors and diagrams.",
     "rejected_trials": "Automatic outlines, centreline strokes, VTracer and manual redraw proofs were not selected.",
     "build": "Original PNG dependencies retained; selected exports unchanged."
-  }
+  },
+  "readme_display": "Opaque white-background PNG preview linked to the corresponding SVG; artwork exports unchanged."
 }

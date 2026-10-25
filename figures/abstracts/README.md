@@ -51,8 +51,8 @@ are retained in `prompts/`; historical model and seed settings were unavailable.
 
 ## Selected export formats
 
-SVG is the selected version embedded in the project README. Anti-aliased PNG
-fallbacks accompany each SVG. PDF intermediates stay in ignored local storage;
+The project README embeds the anti-aliased PNG with an opaque white background
+for visibility in light and dark themes. Clicking the preview opens its SVG. PDF intermediates stay in ignored local storage;
 no PDFs are published. Poppler's `pdftocairo` is required for SVG export.
 
 These SVGs combine scalable native labels/connectors with the original embedded
