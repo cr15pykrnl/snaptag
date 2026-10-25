@@ -9,7 +9,9 @@ Machinery (ACM), pages 136–141.
 
 [Read the paper](https://doi.org/10.1145/2676702.2676719)
 
-![SnapTag associates NFC-tagged keys and spectacles with a doorway, prompts recall through matching cues, and offers identification or camera help if needed.](assets/snaptag.png)
+![SnapTag associates NFC-tagged keys and spectacles with a doorway, prompts recall through matching cues, and offers identification or camera help if needed.](figures/abstracts/assets/snaptag.png)
+
+[Editable figure and source notes](figures/abstracts/README.md).
 
 The belongings scenario illustrates the proposed interaction. Shape cues represent
 the paper's tag cues in monochrome; the screens are schematic.

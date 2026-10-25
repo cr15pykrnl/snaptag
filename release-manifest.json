@@ -13,44 +13,9 @@
       "reason": "Portable local-file exclusions."
     },
     {
-      "pattern": "assets/snaptag.png",
-      "access": "public",
-      "reason": "Owner-approved newly authored conceptual visual explaining the published interaction."
-    },
-    {
       "pattern": "release-manifest.json",
       "access": "public",
       "reason": "Portable artifact classifications and content review hashes."
-    },
-    {
-      "pattern": "assets/snaptag.pdf",
-      "access": "public",
-      "reason": "Newly authored composite figure; no publisher pages embedded."
-    },
-    {
-      "pattern": "figures/snaptag/*.png",
-      "access": "public",
-      "reason": "Owner-requested preservation of generated artwork and attempts; conceptual illustrations."
-    },
-    {
-      "pattern": "figures/snaptag/*.tex",
-      "access": "public",
-      "reason": "Newly authored figure geometry and labels."
-    },
-    {
-      "pattern": "figures/snaptag/*.md",
-      "access": "public",
-      "reason": "Figure sources, limitations and portable build instructions."
-    },
-    {
-      "pattern": "figures/snaptag/*.json",
-      "access": "public",
-      "reason": "Generation provenance without machine-specific paths or private records."
-    },
-    {
-      "pattern": "figures/snaptag/prompts/*.txt",
-      "access": "public",
-      "reason": "Owner-requested preservation of generation prompts."
     },
     {
       "pattern": ".local/*",
@@ -68,85 +33,74 @@
       "reason": "Portable project instructions and owner setup; no private source paths or credentials."
     },
     {
-      "pattern": "figures/review-v1/README.md",
+      "pattern": "figures/abstracts/README.md",
       "access": "public",
-      "reason": "Requested first 4:3 review candidate: paper-specific brief, source evidence, reported-value fixture, editable composition or inspected export. Existing selected figure retained."
+      "reason": "Selected owner-reviewed graphical abstract, original/previously reviewed conceptual artwork, published-value plot or portable authoring evidence. Publication and commits still require current owner authorization."
     },
     {
-      "pattern": "figures/review-v1/assets/snaptag.png",
+      "pattern": "figures/abstracts/artwork-before-edit.png",
       "access": "public",
-      "reason": "Requested first 4:3 review candidate: paper-specific brief, source evidence, reported-value fixture, editable composition or inspected export. Existing selected figure retained."
+      "reason": "Selected owner-reviewed graphical abstract, original/previously reviewed conceptual artwork, published-value plot or portable authoring evidence. Publication and commits still require current owner authorization."
     },
     {
-      "pattern": "figures/review-v1/provenance.json",
+      "pattern": "figures/abstracts/artwork-prompt.txt",
       "access": "public",
-      "reason": "Requested first 4:3 review candidate: paper-specific brief, source evidence, reported-value fixture, editable composition or inspected export. Existing selected figure retained."
+      "reason": "Selected owner-reviewed graphical abstract, original/previously reviewed conceptual artwork, published-value plot or portable authoring evidence. Publication and commits still require current owner authorization."
     },
     {
-      "pattern": "figures/review-v1/reported-results.csv",
+      "pattern": "figures/abstracts/artwork-veena.png",
       "access": "public",
-      "reason": "Requested first 4:3 review candidate: paper-specific brief, source evidence, reported-value fixture, editable composition or inspected export. Existing selected figure retained."
+      "reason": "Selected owner-reviewed graphical abstract, original/previously reviewed conceptual artwork, published-value plot or portable authoring evidence. Publication and commits still require current owner authorization."
     },
     {
-      "pattern": "figures/review-v1/snaptag.tex",
+      "pattern": "figures/abstracts/assets/snaptag.png",
       "access": "public",
-      "reason": "Requested first 4:3 review candidate: paper-specific brief, source evidence, reported-value fixture, editable composition or inspected export. Existing selected figure retained."
+      "reason": "Selected owner-reviewed graphical abstract, original/previously reviewed conceptual artwork, published-value plot or portable authoring evidence. Publication and commits still require current owner authorization."
+    },
+    {
+      "pattern": "figures/abstracts/build.sh",
+      "access": "public",
+      "reason": "Selected owner-reviewed graphical abstract, original/previously reviewed conceptual artwork, published-value plot or portable authoring evidence. Publication and commits still require current owner authorization."
+    },
+    {
+      "pattern": "figures/abstracts/prompts/initial-generation.txt",
+      "access": "public",
+      "reason": "Selected owner-reviewed graphical abstract, original/previously reviewed conceptual artwork, published-value plot or portable authoring evidence. Publication and commits still require current owner authorization."
+    },
+    {
+      "pattern": "figures/abstracts/prompts/initial-refinement.txt",
+      "access": "public",
+      "reason": "Selected owner-reviewed graphical abstract, original/previously reviewed conceptual artwork, published-value plot or portable authoring evidence. Publication and commits still require current owner authorization."
+    },
+    {
+      "pattern": "figures/abstracts/provenance.json",
+      "access": "public",
+      "reason": "Selected owner-reviewed graphical abstract, original/previously reviewed conceptual artwork, published-value plot or portable authoring evidence. Publication and commits still require current owner authorization."
+    },
+    {
+      "pattern": "figures/abstracts/snaptag.tex",
+      "access": "public",
+      "reason": "Selected owner-reviewed graphical abstract, original/previously reviewed conceptual artwork, published-value plot or portable authoring evidence. Publication and commits still require current owner authorization."
     }
   ],
   "reviews": [
     {
-      "path": "assets/snaptag.png",
-      "sha256": "fa3e9eafa2c71e24acef0e83940d1f62ba871bdf3c3380b1906a6db5eeec46a3",
-      "rights": "New conceptual illustration generated at the repository owner's request and explicitly approved by the owner. Native cue symbols and annotations were newly authored. Source paper figures informed the concept; publisher PDF and original figure images are excluded.",
-      "privacy": "Actual image visually inspected at full and README display sizes. Fictional illustrated person, no participant portrait, identities or study records. PNG metadata inspected: generic Ghostscript Software tag and grayscale ICC profile; no EXIF, identifying paths or private study information."
-    },
-    {
-      "path": "figures/snaptag/artwork-generated.png",
+      "path": "figures/abstracts/artwork-before-edit.png",
       "sha256": "6c54c8f63bf839690eb80854dbe41e6220845888ee6c4ce0070eacca72e19f16",
-      "rights": "New conceptual illustration generated with the host image tool or newly authored TikZ annotations. Owner requested preserving the generation workflow and outputs in this repository. Publisher PDF and reference figure images are excluded; no separate licence for publisher content is asserted.",
-      "privacy": "Actual artwork visually inspected: conceptual person and schematic objects/screens, no participant portrait or study records. Available metadata and bytes checked for identifying machine paths; original tool outputs retain generated-content credentials."
+      "rights": "Owner-requested original diagrams, attributed published aggregate values, or generated conceptual line artwork. Required original illustration inputs and exact edit prompt retained. No publisher figure or manuscript PDF copied; no new reuse license assigned.",
+      "privacy": "Self-reviewed final and source artwork. Scientific labels and schematic subjects only; no participant photographs, credentials or machine paths. Final composite PNGs are one-bit black/white. Scenario characters and hardware are illustrative. Final exports rebuilt identically from consolidated sources."
     },
     {
-      "path": "figures/snaptag/artwork-original.png",
-      "sha256": "6c54c8f63bf839690eb80854dbe41e6220845888ee6c4ce0070eacca72e19f16",
-      "rights": "New conceptual illustration generated with the host image tool or newly authored TikZ annotations. Owner requested preserving the generation workflow and outputs in this repository. Publisher PDF and reference figure images are excluded; no separate licence for publisher content is asserted.",
-      "privacy": "Actual artwork visually inspected: conceptual person and schematic objects/screens, no participant portrait or study records. Available metadata and bytes checked for identifying machine paths; original tool outputs retain generated-content credentials."
+      "path": "figures/abstracts/artwork-veena.png",
+      "sha256": "d1363611b01f4104aa063bb5ce26fcb5c4b0922f36641946d53f365620e4f817",
+      "rights": "Owner-requested original diagrams, attributed published aggregate values, or generated conceptual line artwork. Required original illustration inputs and exact edit prompt retained. No publisher figure or manuscript PDF copied; no new reuse license assigned.",
+      "privacy": "Self-reviewed final and source artwork. Scientific labels and schematic subjects only; no participant photographs, credentials or machine paths. Final composite PNGs are one-bit black/white. Scenario characters and hardware are illustrative. Final exports rebuilt identically from consolidated sources."
     },
     {
-      "path": "figures/snaptag/iterations/00-historical-draft.png",
-      "sha256": "3a12ffded2e3b558e18a78481906e1d195376af00803ff7d5d2fdb13dbc28777",
-      "rights": "New conceptual illustration generated with the host image tool or newly authored TikZ annotations. Owner requested preserving the generation workflow and outputs in this repository. Publisher PDF and reference figure images are excluded; no separate licence for publisher content is asserted.",
-      "privacy": "Actual artwork visually inspected: conceptual person and schematic objects/screens, no participant portrait or study records. Available metadata and bytes checked for identifying machine paths; original tool outputs retain generated-content credentials."
-    },
-    {
-      "path": "figures/snaptag/iterations/01-upscale-attempt.png",
-      "sha256": "407bdfa0c6b05c2e3387afcdb341a2fb452b2ad4e89934d3c708ca3f220e276a",
-      "rights": "New conceptual illustration generated with the host image tool or newly authored TikZ annotations. Owner requested preserving the generation workflow and outputs in this repository. Publisher PDF and reference figure images are excluded; no separate licence for publisher content is asserted.",
-      "privacy": "Actual artwork visually inspected: conceptual person and schematic objects/screens, no participant portrait or study records. Available metadata and bytes checked for identifying machine paths; original tool outputs retain generated-content credentials."
-    },
-    {
-      "path": "figures/snaptag/iterations/02-upscale-retry.png",
-      "sha256": "8b211281c18ee26ee24181ee2d7d5380ec608ea0b896a157c286e15356389017",
-      "rights": "New conceptual illustration generated with the host image tool or newly authored TikZ annotations. Owner requested preserving the generation workflow and outputs in this repository. Publisher PDF and reference figure images are excluded; no separate licence for publisher content is asserted.",
-      "privacy": "Actual artwork visually inspected: conceptual person and schematic objects/screens, no participant portrait or study records. Available metadata and bytes checked for identifying machine paths; original tool outputs retain generated-content credentials."
-    },
-    {
-      "path": "assets/snaptag.png",
-      "sha256": "e544e07ae8f0aee0c16132c6e5708fbc6c2d73b6ab7bb47c0be83024b0d87c7a",
-      "rights": "New conceptual illustration generated with the host image tool or newly authored TikZ annotations. Owner requested preserving the generation workflow and outputs in this repository. Publisher PDF and reference figure images are excluded; no separate licence for publisher content is asserted.",
-      "privacy": "Actual artwork visually inspected: conceptual person and schematic objects/screens, no participant portrait or study records. Available metadata and bytes checked for identifying machine paths; original tool outputs retain generated-content credentials."
-    },
-    {
-      "path": "assets/snaptag.pdf",
-      "sha256": "28ef42f0bac7d4fc9b0f83243a0f8cefce4626e086b4354e5b04f979ba6f6cc8",
-      "rights": "New conceptual illustration generated with the host image tool or newly authored TikZ annotations. Owner requested preserving the generation workflow and outputs in this repository. Publisher PDF and reference figure images are excluded; no separate licence for publisher content is asserted.",
-      "privacy": "Actual artwork visually inspected: conceptual person and schematic objects/screens, no participant portrait or study records. Available metadata and bytes checked for identifying machine paths; original tool outputs retain generated-content credentials."
-    },
-    {
-      "path": "figures/review-v1/assets/snaptag.png",
-      "sha256": "a3c8ddb5d97e65a0632d3c24f321d33f1550ba54dca5e0ca26439f056776d4e7",
-      "rights": "New owner-requested review composition. Original native geometry and/or previously reviewed accepted artwork; underlying publications cited in companion source notes. No publisher figure copied or new figure reuse license assigned.",
-      "privacy": "Review render inspected: scientific diagram, schematic interface or reported aggregate values only. No credentials, identifying machine paths or participant photographs. Native 9 pt black labels, one font family, page bounds and exact 4:3 output dimensions verified."
+      "path": "figures/abstracts/assets/snaptag.png",
+      "sha256": "2ac4cc33cf2efed087115e739d613b258296893d3cb464c7118ceffb026bab18",
+      "rights": "Owner-requested original diagrams, attributed published aggregate values, or generated conceptual line artwork. Required original illustration inputs and exact edit prompt retained. No publisher figure or manuscript PDF copied; no new reuse license assigned.",
+      "privacy": "Self-reviewed final and source artwork. Scientific labels and schematic subjects only; no participant photographs, credentials or machine paths. Final composite PNGs are one-bit black/white. Scenario characters and hardware are illustrative. Final exports rebuilt identically from consolidated sources."
     }
   ]
 }
