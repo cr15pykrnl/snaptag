@@ -103,15 +103,15 @@
     },
     {
       "path": "figures/abstracts/assets/snaptag.png",
-      "sha256": "95669ae722fa79316e7a83d0fc093502797922ee03f240a277f017b46ddc703e",
+      "sha256": "000dd58e05ac097757d4f64a0443e9ddac2c552fa1e302fd615503e252473905",
       "rights": "Owner-selected original conceptual artwork and attributed reported-value plots; no copied publisher figure or manuscript PDF; no new reuse licence assigned.",
-      "privacy": "Self-reviewed scientific labels and schematic subjects; no participant photographs, credentials or private machine paths. SVGs inspected for embedded content; labels and geometry preserved. PNG fallbacks use anti-aliased edges."
+      "privacy": "Self-reviewed selected artwork with equal outer frame margins and consistent main gutters. Source illustration inputs, numerical values and scientific interpretation unchanged; no private data or machine paths. SVGs retain selected PNG illustrations where applicable; opaque PNG previews have anti-aliased edges."
     },
     {
       "path": "figures/abstracts/assets/snaptag.svg",
-      "sha256": "644411f909e655faa2c3227f0cd1f0f3053e9f257e0d6d8125eea4a117f4a300",
+      "sha256": "dd0abafc85a6db7c0189d217500c3737b76aa97091af05301c272cd6215a9f8a",
       "rights": "Owner-selected original conceptual artwork and attributed reported-value plots; no copied publisher figure or manuscript PDF; no new reuse licence assigned.",
-      "privacy": "Self-reviewed scientific labels and schematic subjects; no participant photographs, credentials or private machine paths. SVGs inspected for embedded content; labels and geometry preserved. PNG fallbacks use anti-aliased edges."
+      "privacy": "Self-reviewed selected artwork with equal outer frame margins and consistent main gutters. Source illustration inputs, numerical values and scientific interpretation unchanged; no private data or machine paths. SVGs retain selected PNG illustrations where applicable; opaque PNG previews have anti-aliased edges."
     }
   ]
 }

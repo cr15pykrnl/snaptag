@@ -25,11 +25,12 @@
   \draw[black,line width=.8pt] (-10,-2) .. controls (-5,-10) and (5,-10) .. (10,-2);
   \draw[black,line width=.8pt] (-54,-5)--(-63,-12) (54,-5)--(63,-12);
  \end{scope}}
+\tikzset{frameone/.style={line width=1.5pt,line join=miter,line cap=butt},frametwo/.style={line width=1pt,line join=miter,line cap=butt}}
 \begin{document}
 \begin{tikzpicture}[x=1mm,y=1mm,line width=.7pt]
 \path[use as bounding box] (0,0) rectangle (240,180);
-\draw (8,62) rectangle (232,174);
-\node[anchor=west,fill=white,inner sep=1pt] at (12,177) {A. Belongings: trigger situated recall before revealing an answer};
+\draw[frameone] (3,62) rectangle (237,177);
+\node[anchor=west,fill=white,inner sep=1pt] at (7,172.5) {A. Belongings: trigger situated recall before revealing an answer};
 \begin{scope}[shift={(25,174)},x=.095mm,y=-.095mm]
 
 
@@ -37,9 +38,9 @@
  {\includegraphics[width=190mm]{artwork-veena.png}};
 
 % Stage labels use the same 9 pt size as all interface text and captions.
-\node at (347,45) {Tag objects};
-\node at (1000,45) {Veena, 62: recall before leaving};
-\node at (1658,45) {Find if needed};
+\node at (347,65) {Tag objects};
+\node at (1000,65) {Veena, 62: recall before leaving};
+\node at (1658,65) {Find if needed};
 \node at (347,1130) {Near-field communication tags\\mapped to doorway};
 \node at (1000,1130) {Prompt\\recollection};
 \node at (1658,1130) {Optional identification\\and camera aid};
@@ -79,27 +80,27 @@
 
 
 \end{scope}
-\draw (8,23) rectangle (118,60) (122,23) rectangle (232,60);
-\node[anchor=west] at (12,56) {B. Medicines: associate photograph, place and time};
+\draw[frameone] (3,23) rectangle (118,58) (122,23) rectangle (237,58);
+\node[anchor=west] at (7,54) {B. Medicines: associate photograph, place and time};
 \begin{scope}[shift={(2.5,0)}]
 % Medicine photograph, cabinet/time trigger, then recall prompt; no dosing advice.
-\draw (16,32) rectangle (37,50);
+\draw[frametwo] (16,32) rectangle (37,50);
 \draw (23,35) rectangle (30,44);\draw (24,44) rectangle (29,47);
 \draw (23,39)--(30,39);
 \draw (57,41) circle (5);\draw (57,46)--(57,41)--(61,41);
-\draw (78,30) rectangle (105,51);
+\draw[frametwo] (78,30) rectangle (105,51);
 \node[align=center] at (91.5,41) {Recall\\medicine};
 \draw[flow] (37,41)--(49,41);\draw[flow] (64,41)--(76,41);
 \node at (26.5,27) {Photograph};\node at (59,27) {Cabinet + time};
 \end{scope}
-\node[anchor=west] at (126,56) {C. Design evidence};
+\node[anchor=west] at (126,54) {C. Design evidence};
 \node at (177,49) {5 participants, ages 58--70};
-\draw (136,37) rectangle (218,45);
+\draw[frametwo] (136,37) rectangle (218,45);
 \node at (177,41) {Everyday memory difficulties};
 \node at (177,33) {Interviews, routine mapping and shadowing};
 \node at (177,26) {Prototype feedback: sense of accomplishment};
-\draw (8,3) rectangle (232,20);
-\node[anchor=west,align=left] at (12,11) {Proposed benefit: confidence and agency.\\Long-term improvement was not established.};
-\node[anchor=east,align=right] at (228,11) {Baadkar, Singh, Saraf and Bagalkot (2014), 136--141.\\India Human--Computer Interaction Conference; source: 138--140.\\Artwork: source-based conceptual reconstruction.};
+\draw[frameone] (3,3) rectangle (237,19);
+\node[anchor=west,align=left] at (7,11) {Proposed benefit: confidence and agency.\\Long-term improvement was not established.};
+\node[anchor=east,align=right] at (233,11) {Baadkar, Singh, Saraf and Bagalkot (2014), 136--141.\\India Human--Computer Interaction Conference; source: 138--140.\\Artwork: source-based conceptual reconstruction.};
 \end{tikzpicture}
 \end{document}

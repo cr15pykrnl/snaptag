@@ -81,7 +81,7 @@
   "authoring_files": [
     {
       "path": "README.md",
-      "sha256": "fde7ba0b419621487880ae41d3c97381123d41fb8868e0a45a84d43b9803e094"
+      "sha256": "5598ab0e46daea4c045b5fb3ee130d14ca0a331d651aad9a023c9773229b380e"
     },
     {
       "path": "artwork-before-edit.png",
@@ -109,7 +109,7 @@
     },
     {
       "path": "assets/snaptag.png",
-      "sha256": "95669ae722fa79316e7a83d0fc093502797922ee03f240a277f017b46ddc703e",
+      "sha256": "000dd58e05ac097757d4f64a0443e9ddac2c552fa1e302fd615503e252473905",
       "pixels": [
         2400,
         1800
@@ -119,7 +119,7 @@
     },
     {
       "path": "assets/snaptag.svg",
-      "sha256": "644411f909e655faa2c3227f0cd1f0f3053e9f257e0d6d8125eea4a117f4a300",
+      "sha256": "dd0abafc85a6db7c0189d217500c3737b76aa97091af05301c272cd6215a9f8a",
       "embedded_raster_images": 1
     },
     {
@@ -136,7 +136,7 @@
     },
     {
       "path": "snaptag.tex",
-      "sha256": "c5cc6e26ec7cacfc3bb515423add8e94e26ce536147071ad0d5b3bb8597f3ee7"
+      "sha256": "7f885055b93c4970edf05c06c6cac0eff5fa5ca0309d662e1aa5f4446ed00edc"
     }
   ],
   "illustration_selection": {
@@ -145,5 +145,30 @@
     "rejected_trials": "Automatic outlines, centreline strokes, VTracer and manual redraw proofs were not selected.",
     "build": "Original PNG dependencies retained; selected exports unchanged."
   },
-  "readme_display": "Opaque white-background PNG preview linked to the corresponding SVG; artwork exports unchanged."
+  "readme_display": "Opaque white-background PNG preview linked to the corresponding SVG; artwork exports unchanged.",
+  "frame_layout": {
+    "page_outer_margin_mm": 3,
+    "main_panel_gutter_mm": 4,
+    "audit": "All exported PNG outer ink margins measured equal to within one pixel; renderer checks native font size and page bounds. Visual review covers nested clearances and optical balance.",
+    "exports": {
+      "snaptag.png": {
+        "pixels": [
+          2400,
+          1800
+        ],
+        "visible_ink_margins_px": [
+          27,
+          27,
+          27,
+          27
+        ],
+        "sha256": "000dd58e05ac097757d4f64a0443e9ddac2c552fa1e302fd615503e252473905"
+      }
+    },
+    "border_width_pt": {
+      "main": 1.5,
+      "nested": 1
+    },
+    "corner_join": "Square miter joins; frame caps butt."
+  }
 }
