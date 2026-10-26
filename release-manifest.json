@@ -86,6 +86,16 @@
       "pattern": "figures/abstracts/assets/snaptag.svg",
       "access": "public",
       "reason": "Owner-selected SVG export of reviewed original graphical abstract; embedded artwork retains its existing attribution and rights."
+    },
+    {
+      "pattern": "bibliography/*.bib",
+      "access": "public",
+      "reason": "Final reference metadata checked against authoritative records; per-entry source comments and bibliography README preserve verification notes."
+    },
+    {
+      "pattern": "bibliography/README.md",
+      "access": "public",
+      "reason": "Bibliography source, coverage, corrections and verification limitations."
     }
   ],
   "reviews": [

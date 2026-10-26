@@ -60,6 +60,8 @@ Baadkar, S., Singh, G., Saraf, A., and Bagalkot, N. (2014).
 Proceedings of the India HCI 2014 Conference on Human-Computer Interaction,
 136–141. [doi:10.1145/2676702.2676719](https://doi.org/10.1145/2676702.2676719).
 
+[Full reference lists and verification notes](bibliography/README.md).
+
 ```bibtex
 @inproceedings{baadkar2014snaptag,
   author = {Baadkar, Suraj and Singh, Gaurav and Saraf, Atul and Bagalkot, Naveen},
